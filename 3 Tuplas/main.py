@@ -1,4 +1,5 @@
 """
+LOS DATOS DE UNA TUPLA SON INMUTABLES
 Las tuplas guardan direferentes tipos de datos. Tambien podemos almacenar otras tuplas.
 Las Tuplas se manejan por indices y comienzan por "0", por medio de los indices podemos
 consultar los valores almacenados.
