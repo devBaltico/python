@@ -8,7 +8,7 @@ La Tupla es más rápido a la hora de dar informacion ya que python almacena un 
 solo para esto, las listas no.
 """
 #           0      1    2      3      4           5
-#tupla = ('String', 10, 23.3, True, [1, 2, 3], (4, 5, 6))
+#  tupla = ('String', 10, 23.3, True, [1, 2, 3], (4, 5, 6))
 
 # print(tupla)
 # Con type verificamos que clase es el dato

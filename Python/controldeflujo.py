@@ -71,23 +71,93 @@ elif a >= 6:
 """
 
 # ----------------------------------------------------------------------
-contador = 1
 """
+contador = 1
+
 while mientras la condicion sea True:
     ejecuta las acciones(Todo la accion ejecutada dentro de este bloque se llama interaccion)
 """
-
+"""
 while contador <= 10:
 
     # contador += 1
     # if contador % 2 == 0:
     #  print(contador, 'Es un numero par.')
-    print('Conatador vale', contador)
+    #print('Conatador vale', contador)
 
+#------ BREAK ---------------------
     if contador == 5:
-        print('Rmpo el bucle')
+        print('Rompo el bucle')
         break
+"""
+# ------- CONTINUE ------------------
+"""
+contador += 1
+while contador <= 10:
 
+  if contador % 2 == 0:
+      print(contador, 'Es un numero par.')
+      continue
+
+  print('Y ahora incremento al contador', contador)
+  contador += 1
+
+  print('Fuera del While')
+"""
+  # ---------------------------------
+"""
+contador += 0
+
+while contador <= 10:
     contador += 1
 
-print('Fuera del while')
+    if contador % 2 == 0:
+        print(contador, 'Es un numero par.')
+        continue
+
+    print('Estoy aqui, porque contador vale ',contador,' y no dse ha disparado el continue')
+
+print('Fuera del While')
+"""
+#----------- FOR ---------------------
+lista = [1,2,3,4,5,6]
+tupla = (1,2,3,4,5,'a','b','c','d')
+"""
+for valorActual in tupla:
+    print(valorActual)
+"""
+#-----------RANGE --------------------
+# (desde 0, hasta 10)
+for numero in range (0, 10):
+    print(numero)
+
+#------- LEN -------------------------
+longitud = len(tupla)
+print('La lista tiene', longitud, 'items')
+
+#---------------------------------------
+lista2 = ['Hola', 'Mensaje','Rumor']
+
+for palabra in lista2:
+    print('Palabra actual:', palabra)
+
+    if palabra == 'Mensaje':
+        print('He encontrado la palabra Mensaje')
+        break
+
+    #-------------------------------------
+    print()
+    lista3 = ['Hola', 'Mensaje', 'Rumor']
+
+    if 'Mensaje' in lista3:
+        print('Pediste la palabra mensaje')
+
+
+for number in range(100,0 -1):
+    print(number)
+
+
+
+
+
+
